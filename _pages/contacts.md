@@ -1,5 +1,5 @@
 ---
-permalink: /contacts/
+permalink: /contact/
 title: "Contatti"
 author_profile: false
 ---

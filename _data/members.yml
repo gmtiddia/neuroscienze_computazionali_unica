@@ -1,4 +1,3 @@
-
 - name: "Bruno Golosio"
   role: "Professore"
   photo: #"/images/team/nome.jpg"
@@ -9,27 +8,27 @@
 - name: "Gianmarco Tiddia"
   role: "Postdoc"
   photo: #"/images/team/nome.jpg"
-  bio: "Breve descrizione"
+  bio: #"Breve descrizione"
   orcid: "0000-0001-7524-0285"
   alumni: false
 
 - name: "Luca Sergi"
   role: "Dottorando"
   photo: #"/images/team/nome.jpg"
-  bio: "Breve descrizione"
+  bio: #"Breve descrizione"
   orcid: "0009-0006-4633-186X"
   alumni: false
 
 - name: "Antonio Incollu"
   role: "Dottorando"
   photo: #"/images/team/nome.jpg"
-  bio: "Breve descrizione"
+  bio: #"Breve descrizione"
   orcid: "0009-0001-1017-0906"
   alumni: false
 
 - name: "Simone Rubiu"
   role: "Dottorando"
   photo: #"/images/team/nome.jpg"
-  bio: "Breve descrizione"
+  bio: #"Breve descrizione"
   orcid: "0009-0008-6952-7982"
   alumni: false
