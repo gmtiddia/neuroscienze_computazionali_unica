@@ -1,34 +1,34 @@
 - name: "Bruno Golosio"
   role: "Professore"
-  photo: #"/images/team/nome.jpg"
-  bio: #"Breve descrizione"
+  photo: "/images/team/profile.png"
+  bio: "Coordinatore del gruppo di ricerca."
   orcid: "0000-0001-5144-6932"
   alumni: false
 
 - name: "Gianmarco Tiddia"
   role: "Postdoc"
-  photo: #"/images/team/nome.jpg"
-  bio: #"Breve descrizione"
+  photo: "/images/team/profile.png"
+  bio: "Interessi: HPC, simulazioni spiking, plasticità sinaptica, analisi dati, IA applicata a dati clinici."
   orcid: "0000-0001-7524-0285"
   alumni: false
 
 - name: "Luca Sergi"
   role: "Dottorando"
-  photo: #"/images/team/nome.jpg"
-  bio: #"Breve descrizione"
+  photo: "/images/team/profile.png"
+  bio: "Interessi: HPC, modellistica di sinapsi e neuroni, plasticità sinaptica, system neurobiology."
   orcid: "0009-0006-4633-186X"
   alumni: false
 
 - name: "Antonio Incollu"
   role: "Dottorando"
-  photo: #"/images/team/nome.jpg"
-  bio: #"Breve descrizione"
+  photo: "/images/team/profile.png"
+  bio: "Interessi: formulazione di modelli teorici mediante approcci di campo medio per lo studio della dinamica di reti neurali."
   orcid: "0009-0001-1017-0906"
   alumni: false
 
 - name: "Simone Rubiu"
   role: "Dottorando"
-  photo: #"/images/team/nome.jpg"
-  bio: #"Breve descrizione"
+  photo: "/images/team/profile.png"
+  bio: "Interessi: simulazioni spiking, plasticità sinaptica e memoria di lavoro."
   orcid: "0009-0008-6952-7982"
   alumni: false

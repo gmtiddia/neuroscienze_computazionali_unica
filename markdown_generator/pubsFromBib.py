@@ -34,7 +34,7 @@ publist = {
     #                    "permalink":"/publication/"}
     #    
     #},
-    "journal":{
+    "manuscripts":{
         "file": "../files/bibliography.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
