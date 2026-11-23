@@ -1,8 +1,9 @@
-# meeting_comp_neurosc_unica
-Meeting di Neuroscienza Computazionale - Università di Cagliari
+# Pagina del gruppo di Neuroscienze Computazionali dell'Università di Cagliari
 
-Per contribuire:
-- aprire la cartella dell'anno di riferimento
-- creare, o modificare, il file markdown con la data corretta
-- ricordate di fare il push con le modifiche a fine meeting
-- seguire il template indicato nella pagina principale
+Gruppo di Neuroscienze Computazionali
+
+Dipartimento di Fisica
+Complesso Universitario di Monserrato
+S.P. Monserrato-Sestu Km 0,700
+09042 Monserrato (CA) - ITALY
+
