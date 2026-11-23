@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Gruppo di Neuroscienze Computazionali – Università degli Studi di Cagliari"
-author_profile: false
+author_profile: true
 redirect_from:
   - /about/
   - /about.html

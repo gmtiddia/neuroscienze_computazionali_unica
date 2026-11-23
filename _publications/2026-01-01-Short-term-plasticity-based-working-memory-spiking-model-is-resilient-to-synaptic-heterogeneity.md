@@ -1,6 +1,7 @@
 ---
 title: "Short-term plasticity-based working memory spiking model is resilient to synaptic heterogeneity"
 collection: publications
+category: manuscripts
 permalink: /publication/2026-01-01-Short-term-plasticity-based-working-memory-spiking-model-is-resilient-to-synaptic-heterogeneity
 date: 2026-01-01
 venue: 'Physical Review E'

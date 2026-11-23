@@ -1,6 +1,7 @@
 ---
 title: "Fast simulations of highly-connected spiking cortical models using GPUs"
 collection: publications
+category: manuscripts
 permalink: /publication/2021-01-01-Fast-simulations-of-highly-connected-spiking-cortical-models-using-GPUs
 date: 2021-01-01
 venue: 'Frontiers in Computational Neuroscience'

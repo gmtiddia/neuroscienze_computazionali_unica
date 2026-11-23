@@ -1,6 +1,7 @@
 ---
 title: "Theoretical framework for learning through structural plasticity"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Theoretical-framework-for-learning-through-structural-plasticity
 date: 2024-01-01
 venue: 'Physical Review E'
