@@ -12,11 +12,9 @@ main:
     url: /research/
   - title: "Pubblicazioni"
     url: /publications/
-  - title: "Membri"
+  - title: "Membri e contatti"
     url: /team/
   - title: "News"
     url: /year-archive/
   - title: "Software"
     url: /software/
-  - title: "Contatti"
-    url: /contact/

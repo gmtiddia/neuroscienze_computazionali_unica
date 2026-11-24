@@ -1,6 +1,6 @@
 ---
 permalink: /team/
-title: "Membri"
+title: "Membri e contatti"
 author_profile: false
 ---
 
@@ -20,6 +20,12 @@ author_profile: false
   <p class="team-role">{{ m.role }}</p>
 
   <p class="team-bio">{{ m.bio }}</p>
+
+  {% if m.email %}
+  <a href="mailto:{{ m.email }}"
+     target="_blank"
+     class="team-email">email</a>
+  {% endif %}
 
   {% if m.orcid %}
   <a href="https://orcid.org/{{ m.orcid }}"
