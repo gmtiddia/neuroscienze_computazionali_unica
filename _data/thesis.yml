@@ -61,7 +61,6 @@
   status: ""      # lascia vuoto se discussa
   link: ""
 
-
 - name: "Monica Mulas"
   level: "triennale"      # triennale | magistrale | dottorato
   year: 2026              # anno di discussione, anche previsto

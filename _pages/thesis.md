@@ -12,6 +12,6 @@ author_profile: false
 
 {% assign items = site.data.theses | where: "level", level | sort: "year" | reverse %}
 {% for t in items %}
-- **{{ t.name }}** ({{ t.year }}){% if t.status == "in corso" %} *(in corso)*{% endif %}{% if t.title %}: *{{ t.title }}*{% endif %}{% if t.supervisor %}. Relatore: {{ t.supervisor }}{% endif %}{% if t.cosupervisor %}. Co-relatore: {{ t.cosupervisor }}{% endif %}{% if t.link != "" and t.link %} [[link]({{ t.link }})]{% endif %}
+- **{{ t.name }}**{% if t.year %} ({{ t.year }}){% endif %}{% if t.status and t.status != "" %} *({{ t.status }})*{% endif %}{% if t.title and t.title != "" %}: *{{ t.title }}*{% endif %}{% if t.supervisor and t.supervisor != "" %}. Relatore: {{ t.supervisor }}{% endif %}{% if t.cosupervisor and t.cosupervisor != "" %}. Co-relatore: {{ t.cosupervisor }}{% endif %}{% if t.link and t.link != "" %} [[link]({{ t.link }})]{% endif %}
 {% endfor %}
 {% endfor %}
