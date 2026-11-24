@@ -1,0 +1,72 @@
+- name: "Gianmarco Tiddia"
+  level: "triennale"      # triennale | magistrale | dottorato
+  year: 2018              # anno di discussione, anche previsto
+  title: "Modelli computazionali dell'apprendimento di reti di neuroni biologici attraverso la plasticità sinaptica"
+  supervisor: "Bruno Golosio"
+  cosupervisor: ""
+  status: ""      # lascia vuoto se discussa
+  link: ""
+
+- name: "Gianmarco Tiddia"
+  level: "magistrale"      # triennale | magistrale | dottorato
+  year: 2020              # anno di discussione, anche previsto
+  title: "Simulazioni su larga scala basate su reti neurali spiking di circuiti corticali e talamo-corticali"
+  supervisor: "Bruno Golosio"
+  cosupervisor: "Pier Stanislao Paolucci"
+  status: ""      # lascia vuoto se discussa
+  link: ""
+
+- name: "Gianmarco Tiddia"
+  level: "dottorato"      # triennale | magistrale | dottorato
+  year: 2024              # anno di discussione, anche previsto
+  title: "Large-scale neuronal networks: from simulation technology to the study of plasticity-driven cognitive processes"
+  supervisor: "Bruno Golosio"
+  cosupervisor: "Pier Stanislao Paolucci"
+  status: ""      # lascia vuoto se discussa
+  link: "https://hdl.handle.net/11584/391995"
+
+- name: "Adriano Altea"
+  level: "triennale"      # triennale | magistrale | dottorato
+  year: 2021              # anno di discussione, anche previsto
+  title: "Titolo provvisorio"
+  supervisor: "Bruno Golosio"
+  cosupervisor: ""
+  status: ""      # lascia vuoto se discussa
+  link: ""
+
+- name: "Luca Sergi"
+  level: "magistrale"      # triennale | magistrale | dottorato
+  year: 2023              # anno di discussione, anche previsto
+  title: "Teoria di campo medio dell'apprendimento nei sistemi neurali biologici attraverso la plasticità sinaptica strutturale"
+  supervisor: "Bruno Golosio"
+  cosupervisor: "Gianmarco Tiddia"
+  status: ""      # lascia vuoto se discussa
+  link: ""
+
+- name: "Simone Rubiu"
+  level: "triennale"      # triennale | magistrale | dottorato
+  year: 2024              # anno di discussione, anche previsto
+  title: "Modelli di memoria di lavoro basati su reti neurali spiking eterogenee con plasticità sinaptica a breve termine"
+  supervisor: "Bruno Golosio"
+  cosupervisor: "Gianmarco Tiddia"
+  status: ""      # lascia vuoto se discussa
+  link: ""
+
+- name: "Simone Rubiu"
+  level: "magistrale"      # triennale | magistrale | dottorato
+  year: 2026              # anno di discussione, anche previsto
+  title: "Simulazioni di reti neurali spiking con plasticitò sinaptica a breve e lungo termine per lo studio della memoria di lavoro"
+  supervisor: "Bruno Golosio"
+  cosupervisor: "Gianmarco Tiddia"
+  status: ""      # lascia vuoto se discussa
+  link: ""
+
+
+- name: "Monica Mulas"
+  level: "triennale"      # triennale | magistrale | dottorato
+  year: 2026              # anno di discussione, anche previsto
+  title: "Modelli computazionali del segnale BOLD dell'imaging con risonanza magnetica funzionale"
+  supervisor: "Bruno Golosio"
+  cosupervisor: "Gianmarco Tiddia"
+  status: ""      # lascia vuoto se discussa
+  link: ""

@@ -10,11 +10,13 @@
 main:
   - title: "Ricerca"
     url: /research/
-  - title: "Pubblicazioni"
-    url: /publications/
   - title: "Membri e contatti"
     url: /team/
-  - title: "News"
-    url: /year-archive/
   - title: "Software"
     url: /software/
+  - title: "Tesi"
+    url: /thesis/
+  - title: "Pubblicazioni"
+    url: /publications/
+  - title: "News"
+    url: /year-archive/
