@@ -97,6 +97,7 @@ for pubsource in publist:
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
 
             #Build Citation from text
+            """
             citation = ""
 
             #citation authors - todo - add highlighting for primary author?
@@ -111,7 +112,7 @@ for pubsource in publist:
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
-
+            """
             
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
@@ -130,7 +131,7 @@ for pubsource in publist:
 
             md += "\ndate: " + str(pub_date) 
 
-            md += "\nvenue: '" + html_escape(venue) + "'"
+            #md += "\nvenue: '" + html_escape(venue) + "'"
             
             url = False
             if "url" in b.keys():
@@ -138,7 +139,7 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            #md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
 
