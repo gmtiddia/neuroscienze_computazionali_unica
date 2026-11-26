@@ -27,7 +27,7 @@ author_profile: false
        class="team-icon"
        aria-label="Email di {{ m.name }}"
        title="Email">
-      <img src="{{ '../images/email.png' | relative_url }}" alt="" width="24" height="24">
+      <img src="{{ '/images/email.png' | relative_url }}" alt="" width="24" height="24">
     </a>
     {% endif %}
 
@@ -38,7 +38,7 @@ author_profile: false
        rel="noopener"
        aria-label="Profilo ORCID di {{ m.name }}"
        title="ORCID">
-      <img src="{{ '../images/orcid.svg' | relative_url }}" alt="" width="24" height="24">
+      <img src="{{ '/images/orcid.svg' | relative_url }}" alt="" width="24" height="24">
     </a>
     {% endif %}
   </div>
