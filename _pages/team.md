@@ -21,17 +21,27 @@ author_profile: false
 
   <p class="team-bio">{{ m.bio }}</p>
 
-  {% if m.email %}
-  <a href="mailto:{{ m.email }}"
-     target="_blank"
-     class="team-email">email</a>
-  {% endif %}
+  <div class="team-links">
+    {% if m.email %}
+    <a href="mailto:{{ m.email }}"
+       class="team-icon"
+       aria-label="Email di {{ m.name }}"
+       title="Email">
+      <img src="{{ '../images/email.png' | relative_url }}" alt="" width="24" height="24">
+    </a>
+    {% endif %}
 
-  {% if m.orcid %}
-  <a href="https://orcid.org/{{ m.orcid }}"
-     target="_blank"
-     class="team-orcid">ORCID</a>
-  {% endif %}
+    {% if m.orcid %}
+    <a href="https://orcid.org/{{ m.orcid }}"
+       class="team-icon"
+       target="_blank"
+       rel="noopener"
+       aria-label="Profilo ORCID di {{ m.name }}"
+       title="ORCID">
+      <img src="{{ '../images/orcid.svg' | relative_url }}" alt="" width="24" height="24">
+    </a>
+    {% endif %}
+  </div>
 
 </div>
 
