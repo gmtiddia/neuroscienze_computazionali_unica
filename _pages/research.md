@@ -16,7 +16,7 @@ Simulazione di modelli di reti neuronali spiking su vasta scala per riprodurre e
 Studio dei meccanismi di apprendimento attraverso simulazioni di reti neuronali dotate di plasticità sinaptica a lungo termine, con particolare attenzione alle dinamiche dell'attività neurale e alla formazione e modifica delle connessioni sinaptiche.
 
 ## Approcci multiscala di meccanismi neurali e sinaptici
-Sviluppo di modelli in grado di legare meccanismi di natura sinaptica e neuronale a meccanismi di natura molecolare.
+Sviluppo di modelli in grado di legare meccanismi a livello della dinamica sinaptica o neuronale a meccanismi di natura molecolare, con particolare attenzione all'impatto di proteine coinvolte nella dinamica e eventuali loro mutazioni.
 
 ## Plasticità strutturale
 Sviluppo di modelli teorici e computazionali per investigare i meccanismi della plasticità strutturale e il loro impatto sull'organizzazione, la dinamica e le capacità computazionali delle reti neuronali.

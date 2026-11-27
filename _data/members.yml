@@ -1,7 +1,7 @@
 - name: "Bruno Golosio"
   role: "Professore"
   photo: "/images/profile.png"
-  bio: "Coordinatore del gruppo di ricerca."
+  bio: "Coordinatore del gruppo di ricerca, con particolare riferimento a tematiche di sviluppo di reti su larga scala, tecnologie di simulazione e realizzazione di framework teorici per lo studio della plasticità sinaptica."
   email: golosio@unica.it
   orcid: "0000-0001-5144-6932"
   alumni: false
@@ -9,7 +9,7 @@
 - name: "Paolo Ruggerone"
   role: "Professore"
   photo: "/images/profile.png"
-  bio: ""
+  bio: "Coordinatore del gruppo di ricerca, con particolare riferimento alle tematiche di approcci multiscala che legano dinamica molecolare e modellistica sinaptica e neuronale."
   email: paolo.ruggerone@unica.it
   orcid: "0000-0003-0825-0824"
   alumni: false
