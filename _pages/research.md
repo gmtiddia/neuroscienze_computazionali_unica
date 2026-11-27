@@ -4,7 +4,7 @@ title: "Ricerca"
 author_profile: false
 ---
 
-Il gruppo si occupa di neuroscienze computazionali, combinando modellistica matematica, simulazioni di reti neurali spiking e firing rate e analisi di dati per studiare i meccanismi alla base del funzionamento cerebrale e delle patologie neurologiche. Ecco le nostre linee di ricerca principali.
+Il gruppo si occupa di neuroscienze computazionali, combinando modellistica matematica, simulazioni di reti neurali spiking e firing rate e analisi di dati per studiare i meccanismi alla base del funzionamento cerebrale e delle patologie neurologiche a diverse scale. Ecco le nostre linee di ricerca principali.
 
 ## Memoria di lavoro e plasticità sinaptica a breve termine
 Studio del ruolo dei processi di plasticità sinaptica a breve termine nei meccanismi di codifica e mantenimento dell'informazione durante la memoria di lavoro.
@@ -14,6 +14,9 @@ Simulazione di modelli di reti neuronali spiking su vasta scala per riprodurre e
 
 ## Apprendimento e plasticità sinaptica a lungo termine
 Studio dei meccanismi di apprendimento attraverso simulazioni di reti neuronali dotate di plasticità sinaptica a lungo termine, con particolare attenzione alle dinamiche dell'attività neurale e alla formazione e modifica delle connessioni sinaptiche.
+
+## Approcci multiscala di meccanismi neurali e sinaptici
+Sviluppo di modelli in grado di legare meccanismi di natura sinaptica e neuronale a meccanismi di natura molecolare.
 
 ## Plasticità strutturale
 Sviluppo di modelli teorici e computazionali per investigare i meccanismi della plasticità strutturale e il loro impatto sull'organizzazione, la dinamica e le capacità computazionali delle reti neuronali.

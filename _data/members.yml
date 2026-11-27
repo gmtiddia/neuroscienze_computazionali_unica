@@ -6,6 +6,14 @@
   orcid: "0000-0001-5144-6932"
   alumni: false
 
+- name: "Paolo Ruggerone"
+  role: "Professore"
+  photo: "/images/profile.png"
+  bio: ""
+  email: paolo.ruggerone@unica.it
+  orcid: "0000-0003-0825-0824"
+  alumni: false
+
 - name: "Gianmarco Tiddia"
   role: "Postdoc"
   photo: "/images/profile.png"
