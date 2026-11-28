@@ -133,23 +133,29 @@ for pubsource in publist:
 
             md += "\nvenue: '" + html_escape(venue) + "'"
             
-            url = False
-            if "url" in b.keys():
-                if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
-                    url = True
+            # Link all'articolo: preferisce il DOI, altrimenti il campo url
+            paper_link = ""
+            if "doi" in b.keys() and len(str(b["doi"])) > 3:
+                doi = str(b["doi"]).replace("{", "").replace("}", "").replace("\\", "").strip()
+                doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi)
+                paper_link = "https://doi.org/" + doi
+            elif "url" in b.keys() and len(str(b["url"])) > 5:
+                paper_link = str(b["url"])
+            url = bool(paper_link)
+
+            if url:
+                md += "\npaperurl: '" + paper_link + "'"
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
 
-            
             ## Markdown description for individual page
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                md += "\n[Access paper here](" + paper_link + "){:target=\"_blank\"}\n"
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
