@@ -54,6 +54,12 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
+def get_field(fields, name):
+    """Restituisce il valore di un campo BibTeX senza badare alle maiuscole."""
+    for key, value in fields.items():
+        if key.lower() == name:
+            return str(value).strip()
+    return ""
 
 for pubsource in publist:
     parser = bibtex.Parser()
@@ -135,12 +141,16 @@ for pubsource in publist:
             
             # Link all'articolo: preferisce il DOI, altrimenti il campo url
             paper_link = ""
-            if "doi" in b.keys() and len(str(b["doi"])) > 3:
-                doi = str(b["doi"]).replace("{", "").replace("}", "").replace("\\", "").strip()
-                doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi)
+            doi = get_field(b, "doi").replace("{", "").replace("}", "").replace("\\", "")
+            doi = re.sub(r"^(doi:\s*|https?://(dx\.)?doi\.org/)", "", doi, flags=re.I).strip()
+            url_field = get_field(b, "url").replace("{", "").replace("}", "")
+
+            if doi:
                 paper_link = "https://doi.org/" + doi
-            elif "url" in b.keys() and len(str(b["url"])) > 5:
-                paper_link = str(b["url"])
+            elif len(url_field) > 5:
+                paper_link = url_field
+            else:
+                paper_link = ""
             url = bool(paper_link)
 
             if url:
